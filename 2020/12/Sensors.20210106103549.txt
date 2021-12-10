@@ -1,0 +1,113 @@
+112
+
+Culture: en-AU 
+Date: 6/01/2021 10:35:49.09075
+
+ENLIGHT Version: 1.13.0.0
+
+Data Save Interval: 900
+Timestamp Format: Full
+
+Name: 
+Description: 
+Module Type: SM125
+Mux Level: No Switch
+HW Acquisition Rate: 1 Hz
+Wavelength Tracking: 3000 pm / acquistion
+Normalized: True
+
+IP Address: 10.0.0.122
+      Port: 50000
+
+IDN: sm125 1.5
+Image ID: 1.0
+S/N: SIA8G8
+
+CH 1 Configuration:
+	Distance Compensation Enabled: False
+	Spectral Average Count: 1
+	Threshold: -60.00 dB
+	Rel. Thresh.: -36.00 dB
+	Width Level: 3.20 dB
+	Width: 0.17 nm
+	Detect Valley: False
+
+CH 2 Configuration:
+	Distance Compensation Enabled: False
+	Spectral Average Count: 1
+	Threshold: -54.35 dB
+	Rel. Thresh.: -30.00 dB
+	Width Level: 3.90 dB
+	Width: 0.18 nm
+	Detect Valley: False
+
+CH 3 Configuration:
+	Distance Compensation Enabled: False
+	Spectral Average Count: 1
+	Threshold: -50.00 dB
+	Rel. Thresh.: -8.00 dB
+	Width Level: 3.00 dB
+	Width: 0.10 nm
+	Detect Valley: False
+
+CH 4 Configuration:
+	Distance Compensation Enabled: False
+	Spectral Average Count: 1
+	Threshold: -50.00 dB
+	Rel. Thresh.: -8.00 dB
+	Width Level: 3.00 dB
+	Width: 0.10 nm
+	Detect Valley: False
+
+S_NB_S2W (NA, Strain): "((FBG_S_NB_S2W-1515.96)/1515.96)*1000000/0.84-(((FBG_T_NB_S2W-1511.74)/1511.74)*1000000/0.813-((FBG_T_NB_S2W-1511.74)/22)*(11)*1000+CTE*TP_NB_S2W)+385.576", Range (-2989.687, 7171.524), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_NB_S2E (NA, Strain): "((FBG_S_NB_S2E-1525.92)/1525.92)*1000000/0.843-(((FBG_T_NB_S2E-1521.688)/1521.688)*1000000/0.813-((FBG_T_NB_S2E-1521.688)/22)*(11)*1000+CTE*TP_NB_S2E)+178.395", Range (-5010.495, 7767.600), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_NB_S1E (NA, Strain): "((FBG_S_NB_S1E-1536.16)/1536.16)*1000000/0.838-(((FBG_T_NB_S1E-1532.060)/1532.060)*1000000/0.813-((FBG_T_NB_S1E-1532.060)/22)*(11)*1000+CTE*TP_NB_S1E)+229.047", Range (-5033.122, 6445.822), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_NB_S1W (NA, Strain): "((FBG_S_NB_S1W-1546.102)/1546.102)*1000000/0.842-(((FBG_T_NB_S1W-1541.89)/1541.89)*1000000/0.813-((FBG_T_NB_S1W-1541.89)/22)*11*1000+CTE*TP_NB_S1W)+750.295", Range (-4675.707, 6657.776), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_SB_S2W (NA, Strain): "((FBG_S_SB_S2W-1516.2)/1516.2*1000000/0.825)-(((FBG_T_SB_S2W-1512.202)/1512.202)*1000000/0.813-((FBG_T_SB_S2W-1512.202)/22)*11*1000+CTE*TP_SB_S2W)+775.119", Range (-3978.155, 5905.011), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_SB_S2E (NA, Strain): "((FBG_S_SB_S2E-1526.312)/1526.312*1000000/0.822)-(((FBG_T_SB_S2E-1522.28)/1522.28)*1000000/0.813-((FBG_T_SB_S2E-1522.28)/22)*11*1000+CTE*TP_SB_S2E)+333.559", Range (-4345.341, 5630.619), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_SB_S1E (NA, Strain): "((FBG_S_SB_S1E-1536.08)/1536.08*1000000/0.839)-(((FBG_T_SB_S1E-1531.892)/1531.892)*1000000/0.813-((FBG_T_SB_S1E-1531.892)/22)*11*1000+CTE*TP_SB_S1E)+678.632", Range (-3800.069, 6096.536), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+S_SB_S1W (NA, Strain): "((FBG_S_SB_S1W-1546.058)/1546.058*1000000/0.842)-(((FBG_T_SB_S1W-1541.97)/1541.97)*1000000/0.813-((FBG_T_SB_S1W-1541.97)/22)*11*1000+CTE*TP_SB_S1W)+580.967", Range (-3303.872, 5787.558), Limits (NA, NA), Constants ( CTE=12.000 ), Description: ""
+T_NB_S2W (NA, Temperature): "(FBG_T_NB_S2W-1511.74)/22*1000+19", Range (-60.091, 28.545), Limits (NA, NA), Constants (  ), Description: ""
+T_NB_S2E (NA, Temperature): "(FBG_T_NB_S2E-1521.688)/22*1000+17.7", Range (-104.482, 50.064), Limits (NA, NA), Constants (  ), Description: ""
+T_NB_S1E (NA, Temperature): "(FBG_T_NB_S1E-1532.060)/22*1000+21", Range (-72.636, 41.000), Limits (NA, NA), Constants (  ), Description: ""
+T_NB_S1W (NA, Temperature): "(FBG_T_NB_S1W-1541.89)/22*1000+18", Range (-67.909, 45.727), Limits (NA, NA), Constants (  ), Description: ""
+T_SB_S2W (NA, Temperature): "(FBG_T_SB_S2W-1512.202)/22*1000+9", Range (-91.091, 68.000), Limits (NA, NA), Constants (  ), Description: ""
+T_SB_S2E (NA, Temperature): "(FBG_T_SB_S2E-1522.28)/22*1000+19", Range (-84.636, 74.455), Limits (NA, NA), Constants (  ), Description: ""
+T_SB_S1E (NA, Temperature): "(FBG_T_SB_S1E-1531.892)/22*1000+18", Range (-68.000, 91.091), Limits (NA, NA), Constants (  ), Description: ""
+T_SB_S1W (NA, Temperature): "(FBG_T_SB_S1W-1541.97)/22*1000+19", Range (-116.000, 65.818), Limits (NA, NA), Constants (  ), Description: ""
+TP_NB_S2W (NA, Temperature): "3.7529852856878300*(FBG_TP_NB_S2W-7.94)^3-17397.533932784500*(FBG_TP_NB_S2W-7.94)^2+26883058.33531630*(FBG_TP_NB_S2W-7.94)-13846812262.68650", Range (-255.635, 212.960), Limits (NA, NA), Constants (  ), Description: ""
+TP_NB_S2E (NA, Temperature): "3.7529852856878300*(FBG_TP_NB_S2E-12.1528)^3-17397.533932784500*(FBG_TP_NB_S2E-12.1528)^2+26883058.03422780*(FBG_TP_NB_S2E-12.1528)-13846811797.81930", Range (-299.056, 192.557), Limits (NA, NA), Constants (  ), Description: ""
+TP_NB_S1E (NA, Temperature): "3.4716563220263200*(FBG_TP_NB_S1E+15.9096)^3-16427.242229277400*(FBG_TP_NB_S1E+15.9096)^2+25910320.97596180*(FBG_TP_NB_S1E+15.9096)-13622634884.22230", Range (-282.229, 196.954), Limits (NA, NA), Constants (  ), Description: ""
+TP_NB_S1W (NA, Temperature): "3.4716563220263200*(FBG_TP_NB_S1W+12.0187)^3-16427.242229277400*(FBG_TP_NB_S1W+12.0187)^2+25910320.73955020*(FBG_TP_NB_S1W+12.0187)-13622634511.64630", Range (-259.888, 206.457), Limits (NA, NA), Constants (  ), Description: ""
+TP_SB_S2W (NA, Temperature): "3.7529852856878300*(FBG_TP_SB_S2W-7.9119)^3-17397.533932784500*(FBG_TP_SB_S2W-7.9119)^2+26883058.33732300*(FBG_TP_SB_S2W-7.9119)-13846812265.78470", Range (-250.067, 215.642), Limits (NA, NA), Constants (  ), Description: ""
+TP_SB_S2E (NA, Temperature): "3.7529852856878300*(FBG_TP_SB_S2E-12.0178)^3-17397.533932784500*(FBG_TP_SB_S2E-12.0178)^2+26883058.04388220*(FBG_TP_SB_S2E-12.0178)-13846811812.72530", Range (-270.782, 205.030), Limits (NA, NA), Constants (  ), Description: ""
+TP_SB_S1E (NA, Temperature): "3.4716563220263200*(FBG_TP_SB_S1E+15.9226)^3-16427.242229277400*(FBG_TP_SB_S1E+15.9226)^2+25910320.97675080*(FBG_TP_SB_S1E+15.9226)-13622634885.46580", Range (-279.580, 198.137), Limits (NA, NA), Constants (  ), Description: ""
+TP_SB_S1W (NA, Temperature): "3.4716563220263200*(FBG_TP_SB_S1W+12.0187)^3-16427.242229277400*(FBG_TP_SB_S1W+12.0187)^2+25910320.73955020*(FBG_TP_SB_S1W+12.0187)-13622634511.64630+24", Range (-235.888, 230.457), Limits (NA, NA), Constants (  ), Description: ""
+
+FBG_T_NB_S2W (FBG): #Avg = 1, Alpha = 0.00, Range (1510.000, 1511.950), Distance = 0 m
+FBG_S_NB_S2W (FBG): #Avg = 1, Alpha = 0.00, Range (1515.000, 1520.000), Distance = 0 m
+FBG_TP_NB_S2W (FBG): #Avg = 1, Alpha = 0.00, Range (1550.000, 1554.000), Distance = 0 m
+FBG_T_NB_S2E (FBG): #Avg = 1, Alpha = 0.00, Range (1519.000, 1522.400), Distance = 0 m
+FBG_S_NB_S2E (FBG): #Avg = 1, Alpha = 0.00, Range (1522.500, 1530.000), Distance = 0 m
+FBG_TP_NB_S2E (FBG): #Avg = 1, Alpha = 0.00, Range (1554.000, 1558.000), Distance = 0 m
+FBG_T_NB_S1E (FBG): #Avg = 1, Alpha = 0.00, Range (1530.000, 1532.500), Distance = 0 m
+FBG_S_NB_S1E (FBG): #Avg = 1, Alpha = 0.00, Range (1532.600, 1539.000), Distance = 0 m
+FBG_TP_NB_S1E (FBG): #Avg = 1, Alpha = 0.00, Range (1558.000, 1562.000), Distance = 0 m
+FBG_T_NB_S1W (FBG): #Avg = 1, Alpha = 0.00, Range (1540.000, 1542.500), Distance = 0 m
+FBG_S_NB_S1W (FBG): #Avg = 1, Alpha = 0.00, Range (1542.500, 1549.000), Distance = 0 m
+FBG_TP_NB_S1W (FBG): #Avg = 1, Alpha = 0.00, Range (1562.000, 1566.000), Distance = 0 m
+FBG_T_SB_S2W (FBG): #Avg = 1, Alpha = 0.00, Range (1510.000, 1513.500), Distance = 0 m
+FBG_S_SB_S2W (FBG): #Avg = 1, Alpha = 0.00, Range (1514.000, 1518.000), Distance = 0 m
+FBG_TP_SB_S2W (FBG): #Avg = 1, Alpha = 0.00, Range (1550.000, 1554.000), Distance = 0 m
+FBG_T_SB_S2E (FBG): #Avg = 1, Alpha = 0.00, Range (1520.000, 1523.500), Distance = 0 m
+FBG_S_SB_S2E (FBG): #Avg = 1, Alpha = 0.00, Range (1524.000, 1528.000), Distance = 0 m
+FBG_TP_SB_S2E (FBG): #Avg = 1, Alpha = 0.00, Range (1554.000, 1558.000), Distance = 0 m
+FBG_T_SB_S1E (FBG): #Avg = 1, Alpha = 0.00, Range (1530.000, 1533.500), Distance = 0 m
+FBG_S_SB_S1E (FBG): #Avg = 1, Alpha = 0.00, Range (1534.000, 1538.000), Distance = 0 m
+FBG_TP_SB_S1E (FBG): #Avg = 1, Alpha = 0.00, Range (1558.000, 1562.000), Distance = 0 m
+FBG_T_SB_S1W (FBG): #Avg = 1, Alpha = 0.00, Range (1539.000, 1543.000), Distance = 0 m
+FBG_S_SB_S1W (FBG): #Avg = 1, Alpha = 0.00, Range (1545.000, 1548.000), Distance = 0 m
+FBG_TP_SB_S1W (FBG): #Avg = 1, Alpha = 0.00, Range (1562.000, 1566.000), Distance = 0 m
+
+Timestamp	S_NB_S2W	S_NB_S2E	S_NB_S1E	S_NB_S1W	S_SB_S2W	S_SB_S2E	S_SB_S1E	S_SB_S1W	T_NB_S2W	T_NB_S2E	T_NB_S1E	T_NB_S1W	T_SB_S2W	T_SB_S2E	T_SB_S1E	T_SB_S1W	TP_NB_S2W	TP_NB_S2E	TP_NB_S1E	TP_NB_S1W	TP_SB_S2W	TP_SB_S2E	TP_SB_S1E	TP_SB_S1W	FBG_T_NB_S2W (nm)	Level (db)	FBG_S_NB_S2W (nm)	Level (db)	FBG_TP_NB_S2W (nm)	Level (db)	FBG_T_NB_S2E (nm)	Level (db)	FBG_S_NB_S2E (nm)	Level (db)	FBG_TP_NB_S2E (nm)	Level (db)	FBG_T_NB_S1E (nm)	Level (db)	FBG_S_NB_S1E (nm)	Level (db)	FBG_TP_NB_S1E (nm)	Level (db)	FBG_T_NB_S1W (nm)	Level (db)	FBG_S_NB_S1W (nm)	Level (db)	FBG_TP_NB_S1W (nm)	Level (db)	FBG_T_SB_S2W (nm)	Level (db)	FBG_S_SB_S2W (nm)	Level (db)	FBG_TP_SB_S2W (nm)	Level (db)	FBG_T_SB_S2E (nm)	Level (db)	FBG_S_SB_S2E (nm)	Level (db)	FBG_TP_SB_S2E (nm)	Level (db)	FBG_T_SB_S1E (nm)	Level (db)	FBG_S_SB_S1E (nm)	Level (db)	FBG_TP_SB_S1E (nm)	Level (db)	FBG_T_SB_S1W (nm)	Level (db)	FBG_S_SB_S1W (nm)	Level (db)	FBG_TP_SB_S1W (nm)	Level (db)
+6/01/2021 10:35:50.30707	-61.096	-3.645	-34.463	-54.352	-118.528	-53.276	-21.656	-93.565	19.217	19.246	19.812	17.801	17.406	18.266	19.084	17.934	22.965	23.096	23.311	23.434	23.089	23.011	23.015	23.479	1511.74536	-21.40	1515.74424	-21.05	1551.92385	-21.98	1521.72201	-40.10	1526.05387	-38.76	1556.13806	-30.92	1532.03436	-45.58	1536.17061	-45.02	1560.08788	-46.07	1541.88560	-47.46	1545.41886	-46.87	1563.97934	-48.01	1512.38716	-30.79	1515.49998	-29.23	1551.89658	-31.11	1522.26420	-37.57	1526.16618	-37.04	1556.00208	-38.83	1531.91598	-38.26	1535.54273	-38.07	1560.07209	-40.07	1541.94678	-19.92	1545.53755	-19.71	1563.75465	-18.85
